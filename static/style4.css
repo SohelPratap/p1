@@ -1,0 +1,62 @@
+/* Set background image for the entire page */
+body {
+    background-image: url('h.jpg'); /* Replace 'your-wallpaper.jpg' with the path to your wallpaper image */
+    background-size: cover;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.383); /* Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd70;
+}
+
+/* Table header styles */
+table th {
+    background-color: #f2f2f273;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* Table row styles */
+table tbody tr:nth-child(even) {
+    background-color: #e1f5fe49; /* Light blue */
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #b3e5fc3c; /* Slightly darker shade */
+}
+
+/* Button style */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff92;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
