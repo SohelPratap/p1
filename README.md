@@ -5,7 +5,6 @@ The Daily Expense Tracker is a simple web application designed to help users tra
 ## Features
 
 - User registration and login system.
-- Secure storage of user credentials.
 - Personalized expense tracking for each registered user.
 - User-friendly web interface for adding and viewing expenses.
 - Data stored in CSV format for easy retrieval and manipulation.
@@ -29,13 +28,18 @@ The Daily Expense Tracker is a simple web application designed to help users tra
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/daily-expense-tracker.git
+    git clone https://github.com/SohelPratap/p1.git
     ```
 
 2. Install the required Python dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    cd p1
+    python -m venv venv
+    venv\Scripts\activate   # for Windows
+    source venv/bin/activate   # for macOS/Linux
+    pip install --upgrade pip
+    pip install Flask
     ```
 
 3. Run the Flask application:
@@ -56,5 +60,9 @@ The Daily Expense Tracker is a simple web application designed to help users tra
 
 ## Contributors
 
-- Your Name - Lead Developer
+- Sohel Pratap Singh - Lead Developer
+- Shrawan Kumar Bhagat
+- Abhinav Nirapure
+- Yuvraj Bhatkariya
+- Omkar Markam
 
